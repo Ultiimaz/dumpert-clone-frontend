@@ -1,0 +1,37 @@
+.dumpert-header {
+    width: 100%;
+
+}
+.dumpert-logo {
+    font-family: "Helvetica Neue Black", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+}
+ul li {
+
+}
+ul {
+    display: flex;
+    flex-direction: row;
+}
+.dumpert-header li {
+    list-style: none;
+    width: 125px;
+    padding-top: 7.5px;
+    padding-bottom: -7px;
+    margin: 5px;
+    font-family: "Helvetica Neue Black", Arial, sans-serif;
+    border-radius: 3.5px;
+    border: 1px solid black;
+    text-align: center;
+    height: 35px;
+    background-color: green;
+    color: white;
+}
+.dumpert-header li a {
+
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
