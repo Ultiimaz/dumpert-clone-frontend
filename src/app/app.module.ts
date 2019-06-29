@@ -7,6 +7,7 @@ import { VideosComponent } from './videos/videos.component';
 import { TopComponent } from './top/top.component';
 import { ThemesComponent } from './themes/themes.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import {DumpertTVComponent} from './dumpert-tv/dumpert-tv.component';
 
 const appRoutes: Routes = [
   { path: '', component: MainComponent},
@@ -21,7 +22,8 @@ const appRoutes: Routes = [
     VideosComponent,
     TopComponent,
     ThemesComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+      DumpertTVComponent
   ],
   imports: [
     BrowserModule,
